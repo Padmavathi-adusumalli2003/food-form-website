@@ -1,0 +1,62 @@
+*{
+    margin:0px;
+    padding: 0px;
+
+}
+body{
+    height: 100vh;
+    background-image: url(../day15/images/5.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+}
+#container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.calculator{
+    background-color:rgba(0, 0, 0, 0.393);
+    padding: 10px;
+    margin: auto;
+    box-shadow: 0px 0px 10px 3px blue;
+}
+input{
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    font-family: monospace;
+    margin: 10px;
+    border-radius: 10px;
+}
+.calculator form input.numbtns{
+    background-color: cadetblue;
+}
+form.display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0px;
+    box-shadow: 5px 5px 5px blueviolet;
+}
+form .display input{
+    text-align: right;
+    padding: 20px;
+    width: 300px;
+    background-color: blue;
+}
+form input.symbols{
+    background-color: orange;
+}
+form input#equal{
+    width:150px;
+    background-color: green;
+}
+.ac,.del{
+    background-color: rgb(229,159,159,0.831);
+}
+#container form input:hover{
+    background-color: greenyellow;
+    font-family: cursive;
+}
